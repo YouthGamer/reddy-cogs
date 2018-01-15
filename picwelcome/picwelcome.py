@@ -196,4 +196,4 @@ def setup(bot):
     check_files()  
     n = PicWelcome(bot)
     bot.add_listener(n.text,"on_member_join")
-bot.add_cog(n)
+ bot.add_cog(PicWelcome(bot))
